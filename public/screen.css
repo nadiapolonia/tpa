@@ -24,12 +24,44 @@ section {
   margin-right: 3rem;
 }
 
-#middle-section {
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.404);
-  justify-content: space-evenly;
-  margin-top: 8rem;
-  padding: 1rem;
+p {
+  font-family: "Roboto";
+  padding-bottom: 1.5rem;
+  margin-top: -1.5rem;
+  padding-left: 1rem;
+}
+
+article {
+  margin-top: 0.75rem;
+  background-color: whitesmoke;
+  border-radius: 0.25rem;
+}
+
+header {
+  border-radius: 0.25rem;
+}
+
+h3 {
+  font-family: "Roboto";
+  padding-left: 1rem;
+}
+
+button {
+  background-color: rgb(65, 120, 221);
+  color: white;
+  font-family: "roboto";
+  font-size: 18px;
+  border-radius: 0.5rem;
+  padding: 0.7rem;
+  border: none;
+  align-self: flex-end;
+  margin-bottom: -1rem;
+  margin-right: 1rem;
+}
+
+footer {
+  color: white;
+  text-align: center;
 }
 
 .white-text {
@@ -52,27 +84,108 @@ section {
 }
 
 .quotepic {
-  margin-top: 0.95rem;
   opacity: 0.67;
+  margin-top: -2rem;
 }
 
 .quotep {
   font-size: 30px;
-  margin-top: 0.7rem;
-  margin-bottom: -0.5rem;
+  margin-top: 0.67rem;
+  margin-bottom: 0.5rem;
   font-weight: bolder;
   font-family: "Roboto", sans-serif;
 }
 
-article {
-  margin-top: 4rem;
-  background-color: whitesmoke;
+.quotep2 {
+  margin-bottom: -0.1rem;
 }
 
-#quote {
+.center {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.twitter {
+  margin-left: 17rem;
+  margin-right: 15rem;
+  margin-top: -3rem;
+  margin-bottom: 4rem;
+}
+
+.connect {
+  text-align: center;
+  margin-top: 5rem;
+  color: whitesmoke;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quote {
   background-color: rgba(245, 245, 245, 0.699);
   border-radius: 2%;
-  height: 6rem;
+  height: 5rem;
   padding-left: 1rem;
   padding-right: 5rem;
+  margin-top: 5rem;
+}
+
+.middle-section {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.404);
+  justify-content: space-evenly;
+  margin-top: 6rem;
+  padding: 1rem;
+}
+.react {
+  background-image: url(./images/react.png);
+  background-position: center;
+  height: 4rem;
+}
+
+.react-article {
+  height: 2rem;
+}
+
+.fizz {
+  background-image: url(./images/code.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 4rem;
+}
+
+.border {
+  border-radius: 2rem;
+}
+
+.dates {
+  display: flex;
+  justify-content: left;
+  margin: 0;
+}
+.date {
+  margin-top: 1.25rem;
+  margin-left: 0.25rem;
+}
+
+.font {
+  font-family: "Roboto";
+}
+.fit-body {
+  width: 10rem;
+}
+
+.margin {
+  margin-left: 4.75rem;
+  margin-right: 4.75rem;
+}
+
+.margin-fizz {
+  margin-top: 4rem;
+  margin-left: 4.75rem;
+  margin-right: 4.75rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
 }
