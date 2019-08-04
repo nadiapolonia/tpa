@@ -72,7 +72,7 @@ footer {
   width: 13.5rem;
   height: 13.5rem;
   border-radius: 2%;
-  margin-right: 1rem;
+  margin-right: 2%;
   margin-top: 6rem;
 }
 
@@ -85,7 +85,20 @@ footer {
 
 .quotepic {
   opacity: 0.67;
-  margin-top: -2rem;
+  align-self: baseline;
+  margin-top: -2%;
+  margin-bottom: -5.7%;
+}
+
+.quote {
+  background-color: rgba(245, 245, 245, 0.699);
+  border-radius: 2%;
+  height: 1%;
+  padding-left: 1.8%;
+  padding-right: 8%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .quotep {
@@ -106,10 +119,8 @@ footer {
 }
 
 .twitter {
-  margin-left: 17rem;
-  margin-right: 15rem;
   margin-top: -3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
 }
 
 .connect {
@@ -120,19 +131,11 @@ footer {
   font-weight: bold;
 }
 
-.quote {
-  background-color: rgba(245, 245, 245, 0.699);
-  border-radius: 2%;
-  height: 5rem;
-  padding-left: 1rem;
-  padding-right: 5rem;
-  margin-top: 5rem;
-}
-
 .middle-section {
   display: flex;
   background-color: rgba(0, 0, 0, 0.404);
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 6rem;
   padding: 1rem;
 }
@@ -188,4 +191,74 @@ footer {
 .flex {
   display: flex;
   flex-direction: column;
+}
+
+.flex-twitter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Mobile Settings*/
+
+@media (max-width: 600px) {
+  body {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .jason {
+    width: 9rem;
+    height: 9rem;
+    margin-right: 2%;
+    margin-left: -12%;
+  }
+
+  .quote {
+    margin-right: -14%;
+    padding-top: 2%;
+  }
+
+  .quotep {
+    font-size: 18px;
+  }
+
+  .quotep2 {
+    font-size: 9px;
+  }
+
+  .quotepic {
+    margin-bottom: -14%;
+  }
+
+  .mini-pic {
+    width: 8rem;
+    height: 6rem;
+  }
+
+  .middle-section {
+    margin-top: 3rem;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  .margin {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .margin-fizz {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .twitter {
+    width: 80%;
+    margin-left: 6%;
+    margin-bottom: 5%;
+  }
+
+  .font-twitter {
+    font-size: 12px;
+  }
 }
