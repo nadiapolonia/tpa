@@ -12,7 +12,7 @@ body {
   margin-right: 15rem;
   margin-left: 15rem;
   background-color: rgb(0, 0, 14);
-  background-image: url(./images/space.png);
+  background-image: url(./images/flower.jpg);
   background-repeat: no-repeat;
   background-position-x: center;
 }
@@ -68,7 +68,7 @@ footer {
   color: whitesmoke;
 }
 
-.jason {
+.profile-pic {
   width: 13.5rem;
   height: 13.5rem;
   border-radius: 2%;
@@ -78,7 +78,7 @@ footer {
 
 .mini-pic {
   width: 12.5rem;
-  height: 9rem;
+  height: 12.5rem;
   border-radius: 5%;
   margin: 0.5rem;
 }
@@ -87,7 +87,7 @@ footer {
   opacity: 0.67;
   align-self: baseline;
   margin-top: -2%;
-  margin-bottom: -5.7%;
+  margin-bottom: -1.25rem;
 }
 
 .quote {
@@ -119,13 +119,16 @@ footer {
 }
 
 .twitter {
-  margin-top: -3rem;
-  margin-bottom: 3.5rem;
+  width: 10%;
+  height: 10%;
+  margin-bottom: 2rem;
+  padding: 1rem;
 }
 
 .connect {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 12rem;
+  margin-bottom: 0rem;
   color: whitesmoke;
   font-size: 24px;
   font-weight: bold;
@@ -136,11 +139,11 @@ footer {
   background-color: rgba(0, 0, 0, 0.404);
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 6rem;
+  margin-top: 3rem;
   padding: 1rem;
 }
 .react {
-  background-image: url(./images/react.png);
+  background-image: url(./images/flowerheader.jpg);
   background-position: center;
   height: 4rem;
 }
@@ -150,7 +153,7 @@ footer {
 }
 
 .fizz {
-  background-image: url(./images/code.png);
+  background-image: url(./images/flowerheader.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 4rem;
@@ -180,6 +183,7 @@ footer {
 .margin {
   margin-left: 4.75rem;
   margin-right: 4.75rem;
+  margin-top: 3rem;
 }
 
 .margin-fizz {
@@ -203,11 +207,11 @@ footer {
 
 @media (max-width: 600px) {
   body {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
-  .jason {
+  .profile-pic {
     width: 9rem;
     height: 9rem;
     margin-right: 2%;
@@ -228,12 +232,12 @@ footer {
   }
 
   .quotepic {
-    margin-bottom: -14%;
+    margin-bottom: -1.25rem;
   }
 
   .mini-pic {
     width: 8rem;
-    height: 6rem;
+    height: 8rem;
   }
 
   .middle-section {
@@ -243,8 +247,8 @@ footer {
   }
 
   .margin {
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   .margin-fizz {
@@ -253,12 +257,28 @@ footer {
   }
 
   .twitter {
-    width: 80%;
+    width: 25%;
     margin-left: 6%;
     margin-bottom: 5%;
   }
 
+  .connect {
+    margin-top: 4.5rem;
+  }
+
   .font-twitter {
     font-size: 12px;
+  }
+
+  .font {
+    font-size: 13px;
+  }
+
+  .flex-twitter {
+    margin-top: 2rem;
+  }
+
+  .connect {
+    font-size: 20px;
   }
 }
